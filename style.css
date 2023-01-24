@@ -91,6 +91,7 @@ span.launching {
 }
 
 .hero-box-wrapper .hero-box-title {
+    line-height: 116px;
     font-weight: 900;
     font-size: 96px;
     margin: 24px 0 32px;
@@ -98,6 +99,7 @@ span.launching {
 
 .hero-box-wrapper .hero-box-description {
     color: #555555;
+    line-height: 150%;
     font-weight: 400;
     font-size: 20px;
     margin-top: 0;
@@ -288,6 +290,7 @@ span.launching {
 
 .section-container .section-wrapper .section-description {
     color: #555555;
+    line-height: 150%;
     font-weight: 400;
     font-size: 20px;
     padding-right: 40px;
@@ -307,7 +310,7 @@ span.launching {
 .section-container .section-image-wrapper .section-image {
     width: 205px;
     position: absolute;
-    top: -251px;
+    top: -246px;
 }
 
 .footer-info-wrapper {
