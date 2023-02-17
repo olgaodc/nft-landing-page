@@ -376,7 +376,7 @@ span.launching {
     /* width: 50%; */
     display: flex;
     flex-wrap: wrap;
-    gap: 65px;
+    gap: 50px 65px;
     justify-content: space-between;
 }
 
