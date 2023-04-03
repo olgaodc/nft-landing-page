@@ -218,6 +218,20 @@ span.launching-august {
     margin-bottom: 41px;
 }
 
+.hero-box-info .hero-box-description .hero-box-link {
+    color: #555555;
+    font-weight: 600;
+    border-bottom: 3px solid;
+    cursor: pointer;
+}
+
+.hero-box-info .hero-box-description .hero-box-link:hover {
+    opacity: 0.7;
+}
+
+.dark-mode .hero-box-info .hero-box-description .hero-box-link {
+    color: #CCCCCC;
+}
 
 .button {
     display: block;
@@ -323,6 +337,10 @@ span.launching-august {
     border-bottom: 2px solid #555555;
 }
 
+.auction-container .auction-description .auction-description-link:hover {
+    opacity: 0.7;
+}
+
 .auction-products-list {
     display: flex;
     flex-wrap: wrap;
@@ -401,10 +419,10 @@ span.launching-august {
 
 .section-container .section-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
     align-items: center;
     padding-top: 100px;
-    padding-bottom: 90px;
+    padding-bottom: 100px;
     border-top: 3px solid #EEEEEE;
     border-bottom: 2px solid #EEEEEE;
     margin-bottom: 120px;
@@ -434,7 +452,7 @@ span.launching-august {
     justify-content: center;
 }
 .section-container .section-image-wrapper .section-image {
-    width: 158px;
+    width: 195px;
     position: absolute;
     bottom: -3px;
 }
@@ -796,7 +814,7 @@ body.dark-mode {
     }
 
     .section-container .section-image-wrapper .section-image {
-        width: 120px;
+        width: 170px;
     }
 
     .section-container .section-info .button {
@@ -829,7 +847,7 @@ body.dark-mode {
 
     .hero-box .hero-box-image-wrapper .hero-box-image {
         z-index: -1;
-        left: 30%;
+        left: 40%;
     }
 
     .section-container .section-image-wrapper .section-image {

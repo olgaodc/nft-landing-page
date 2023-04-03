@@ -19,3 +19,15 @@ document.querySelectorAll('.navigation-item').forEach(n => n.addEventListener('c
     hamburgerMenu.classList.remove('active');
     navigationMenu.classList.remove('active');
 }))
+
+
+
+const heroBoxLink = document.querySelector('.hero-box-link');
+const launchingSection = document.getElementById('launching');
+
+heroBoxLink.addEventListener('click', () => {
+    launchingSection.scrollIntoView({ 
+        block: 'start',
+        behavior: 'smooth',
+    });
+})
