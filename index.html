@@ -14,6 +14,26 @@
 
 <body class="dark-mode">
   <div class="content-wrapper">
+    <div id="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-image-wrapper">
+          <svg class="modal-image" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"><g id="Outline"><g data-name="Outline" id="Outline-2">
+            <path d="M23.1,17.79a4,4,0,0,0,0,5.66l4.24,4.24a5,5,0,0,0,7.07,0l8.49-8.48a4,4,0,0,0-5.66-5.66l-6.36,6.36-2.12-2.12A4,4,0,0,0,23.1,17.79ZM31.59,22,38.66,15a2,2,0,1,1,2.83,2.83L33,26.28a3.08,3.08,0,0,1-4.24,0L24.51,22a2,2,0,1,1,2.83-2.83L30.17,22A1,1,0,0,0,31.59,22Z"/><path d="M58.4,21.83,53,18.3V5a3,3,0,0,0-3-3H36a1,1,0,0,0,0,2H50a1,1,0,0,1,1,1V32.21L40.73,41.36l-2.95-2.52a8.72,8.72,0,0,0-11.56,0l-2.9,2.56L13,32.21V5a1,1,0,0,1,1-1H28a1,1,0,0,0,0-2H14a3,3,0,0,0-3,3V18.3L5.54,21.88A9,9,0,0,0,2,29.05V53a9.06,9.06,0,0,0,9.05,9H53a9.06,9.06,0,0,0,9-9V29.05A9,9,0,0,0,58.4,21.83ZM53,20.69l4.24,2.77a7.07,7.07,0,0,1,1.62,1.75L53,30.43ZM6.7,23.51,11,20.69v9.74L5.13,25.21A6.68,6.68,0,0,1,6.7,23.51ZM4,53V29.05a6.93,6.93,0,0,1,.28-1.93L21.81,42.73,5.44,57.2A7,7,0,0,1,4,53Zm7.05,7a7,7,0,0,1-4.18-1.39L27.54,40.34a6.74,6.74,0,0,1,8.93,0l21,18A7,7,0,0,1,53,60Zm49-7a7,7,0,0,1-1.17,3.88L42.26,42.67,59.72,27.12A6.93,6.93,0,0,1,60,29.05Z"/><circle cx="32" cy="3" r="1"/></g></g>
+          </svg>
+        </div>
+        <div class="modal-info">
+          <h2 class="modal-title">Stay with us!</h2>
+          <p class="modal-description">Subscribe now and get the latest news.</p>
+          <form class="form">
+            <input class="form-item" type="text" id="name" name="name" placeholder="Enter Your Name" autocomplete="off">
+            <input class="form-item" type="email" id="email" name="email" placeholder="Enter Your Email" autocomplete="off" required>
+            <button class="subscribe-button">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
     <div class="header">
       <div class="container">
         <div class="header-wrapper">
@@ -39,8 +59,8 @@
                 <a class="item-link different" href="#">Sign Up</a>
               </li> -->
               <li class="navigation-item">
-                <input type="checkbox" id="light-mode-button">
-                <label for="light-mode-button">
+                <input class="switcher" type="checkbox" id="light-mode-button">
+                <label class="switcher-background" for="light-mode-button">
                   <svg width="800px" class="moon" height="800px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <g id="icomoon-ignore">
                     </g>
@@ -138,8 +158,8 @@
           <div class="hero-box-info">
             <span class="launching">Launching in August</span>
             <h1 class="hero-box-title">An NFT like no other</h1>
-            <p class="hero-box-description">Don’t miss out on the release of our new NFT platform, where you can buy premium and exclusive NFTs created by the world's top artists. See more information about launching <span class="hero-box-link"> here</span>. Subscribe us now to receive newest updates.</p>
-            <a href="#" class="button">Subscribe</a>
+            <p class="hero-box-description">Don’t miss out on the release of our new NFT platform, where you can buy premium and exclusive NFTs created by the world's top artists. Read more information about launching <span class="hero-box-link"> here</span>. Subscribe us now to receive newest updates.</p>
+            <a class="button">Subscribe</a>
           </div>
 
           <div class="hero-box-image-wrapper">
