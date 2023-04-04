@@ -252,6 +252,7 @@ span.launching-august {
 .hero-box .hero-box-image-wrapper .hero-box-image {
     width: 661px;
     position: absolute;
+    z-index: -1;
     left: 50%;
     top: -30px;
 }
@@ -425,6 +426,11 @@ span.launching-august {
     position: relative;
 }
 
+.section-container .section-info {
+    position: relative;
+    z-index: 3;
+}
+
 .section-container .section-info .section-title {
     font-weight: 900;
     font-size: 56px;
@@ -452,6 +458,7 @@ span.launching-august {
     width: 195px;
     position: absolute;
     bottom: -3px;
+    z-index: 1;
 }
 
 .footer-info-wrapper {
@@ -860,11 +867,11 @@ body.dark-mode {
 
     .hero-box-wrapper {
         margin-bottom: 120px;
-        margin-top: 60px;
+        margin-top: 90px;
     }
 
     .hero-box-info .hero-box-title {
-        font-size: 48px;
+        font-size: 58px;
         line-height: 50px;
         margin-bottom: 24px;
     }
@@ -875,8 +882,9 @@ body.dark-mode {
     }
 
     .hero-box .hero-box-image-wrapper .hero-box-image {
-        width: 344px;
-        top: 47px;
+        width: 380px;
+        left: 55%;
+        top: -60px;
     }
 
     .section-container .section-info .section-title {
@@ -900,7 +908,6 @@ body.dark-mode {
 
     .hero-box-wrapper {
         margin-bottom: 80px;
-        margin-top: 42px;
     }
 
     span.launching {
@@ -908,13 +915,13 @@ body.dark-mode {
     }
 
     .hero-box-info .hero-box-title {
-        width: 260px;
-        font-size: 38px;
+        width: 265px;
+        font-size: 46px;
         margin: 15px 0 15px;
     }
 
     .hero-box-info .hero-box-description {
-        width: 240px;
+        width: 328px;
         font-size: 18px;
         margin-bottom: 30px;
     }
@@ -961,9 +968,13 @@ body.dark-mode {
         font-size: 18px;
     }
 
+    .auction-products-list {
+        justify-content: center;
+    }
+
     .section-container .section-wrapper {
-        padding-top: 40px;
-        padding-bottom: 30px;
+        padding-top: 50px;
+        padding-bottom: 60px;
         margin-bottom: 60px;
     }
 
@@ -984,7 +995,6 @@ body.dark-mode {
     .section-container .section-image-wrapper .section-image {
         width: 170px;
         left: 70%;
-        z-index: -1;
     }
 
     .section-container .section-info .button {
@@ -1011,9 +1021,12 @@ body.dark-mode {
         padding-right: 20px;
     }
 
+    .hero-box-info .hero-box-description {
+        width: 259px;
+    }
+
     .hero-box .hero-box-image-wrapper .hero-box-image {
-        z-index: -1;
-        left: 40%;
+        left: 48%;
     }
 
     /* .section-container .section-image-wrapper .section-image {
