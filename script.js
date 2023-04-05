@@ -65,12 +65,12 @@ document.querySelector('.modal-content .close').addEventListener('click', () => 
 
 
 //SLIDE DOWN
-const heroBoxLink = document.querySelector('.hero-box-link');
-const launchingSection = document.getElementById('launching');
+// const heroBoxLink = document.querySelector('.hero-box-link');
+// const launchingSection = document.getElementById('launching');
 
-heroBoxLink.addEventListener('click', () => {
-    launchingSection.scrollIntoView({ 
-        block: 'start',
-        behavior: 'smooth',
-    });
-})
+// heroBoxLink.addEventListener('click', () => {
+//     launchingSection.scrollIntoView({ 
+//         block: 'start',
+//         behavior: 'smooth',
+//     });
+// })
