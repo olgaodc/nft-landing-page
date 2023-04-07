@@ -29,6 +29,9 @@ body {
     padding-right: 80px;
 }
 
+
+
+/* Header */
 .header-wrapper {
     display: flex;
     align-items: center;
@@ -66,6 +69,7 @@ body {
 }
 
 
+/* Switcher */
 label.switcher-background {
     width: 62px;
     height: 28px;
@@ -152,6 +156,7 @@ input.switcher:checked + label.switcher-background  svg.sun {
     color: #FF3998;
 }
 
+/* Hamburger-menu */
 .hamburger-menu{
     display: none;
     cursor: pointer;
@@ -172,6 +177,8 @@ input.switcher:checked + label.switcher-background  svg.sun {
 }
 
 
+
+/* Hero box */
 .hero-box {
     overflow: hidden;
 }
@@ -244,6 +251,9 @@ span.launching-august {
     top: -30px;
 }
 
+
+
+/* Banner */
 .banner-wrapper {
     padding: 154px 64px 64px;
     background-image: url('img/background.svg');
@@ -266,10 +276,12 @@ span.launching-august {
     margin: 0;
 }
 
+
+
+/* Logos section */
 .logos-section {
     margin-bottom: 120px;
 }
-
 
 .logos-section .logos-section-list {
     padding-left: 0;
@@ -291,6 +303,9 @@ span.launching-august {
     display: block;
 }
 
+
+
+/* Auction section */
 .auction-container {
     margin-bottom: 120px;
 }
@@ -328,12 +343,13 @@ span.launching-august {
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
+    justify-content: center;
     /* overflow: hidden; */
 }
 
 .auction-products-list .product-item .product-item-image {
     display: block;
-    width: 260px;
+    width: 280px;
 }
 
 .auction-products-list .product-item .item-info {
@@ -396,6 +412,9 @@ span.launching-august {
     font-size: 18px;   
 }
 
+
+
+/* Launching section */
 .section-container  {
     overflow: hidden;
 }
@@ -443,6 +462,9 @@ span.launching-august {
     z-index: 1;
 }
 
+
+
+/* Footer */
 .footer-info-wrapper {
     display: flex;
     justify-content: space-between;
@@ -500,7 +522,6 @@ span.launching-august {
 
 
 
-
 /* MODAL */
 #modal {
     position: fixed;
@@ -524,7 +545,6 @@ span.launching-august {
     width: 600px;
     transition: all 300ms ease-in-out;
 }
-  
   
 #modal.active {
     top: 0px;
@@ -635,10 +655,7 @@ span.launching-august {
 
 
 
-
-
-
-
+/* Dark mode */
 body.dark-mode {
     background-color: #111111;
 }
@@ -687,6 +704,7 @@ body.dark-mode {
 }
 
 
+/* Responsive */
 @media (max-width: 1119px) {
     .logos-section .logos-section-list .logo-section-item:nth-of-type(5) {
         display: none;
@@ -745,7 +763,7 @@ body.dark-mode {
 
 @media (max-width: 784px) {
     .content-wrapper {
-        padding: 35px 0;
+        padding: 30px 0;
     }
 
     .container {
@@ -903,10 +921,6 @@ body.dark-mode {
 
     .auction-container .auction-description {
         font-size: 18px;
-    }
-
-    .auction-products-list {
-        justify-content: center;
     }
 
     .section-container .section-wrapper {
